@@ -23,6 +23,7 @@ const NavBar = () => {
                   <Link to="/" class="inline-block no-underline hover:text-black font-medium text-lg py-2 px-4 lg:-ml-2" >Home</Link>
                   <Link to="/gallery" class="inline-block no-underline hover:text-black font-medium text-lg py-2 px-4 lg:-ml-2" >Gallery</Link>
                   <Link to="/login" class="inline-block no-underline hover:text-black font-medium text-lg py-2 px-4 lg:-ml-2" >Login</Link>
+                  <Link to="/signup" class="inline-block no-underline hover:text-black font-medium text-lg py-2 px-4 lg:-ml-2" >Signup</Link>
                </ul>
             </nav>
          </div>

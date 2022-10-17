@@ -40,7 +40,8 @@ import About from './component/About';
     const [user, setUser] = useState(null)
     return (
         <div>
-        <BrowserRouter>
+        <NavBar/>
+        
         <Routes>
           <Route exact path='/' element={<Home  />}  />
           <Route exact path='/signup' element={<Signup onLogin={()=>onLogin(login)}/>} />
@@ -48,9 +49,10 @@ import About from './component/About';
           <Route exact path='/gallery' element={<Gallery />} />
           <Route exact path='/login' element={<Login user={user} setUser={setUser} />} />
           <Route exact path='/about' element={<About />} />
-          <Route exact path='/navbar' element={<NavBar />} />
+          
         </Routes>
-        </BrowserRouter>
+
+        
         
 
       

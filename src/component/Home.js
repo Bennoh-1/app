@@ -8,14 +8,14 @@ const Home = () => {
   return (
 
     <div>
-    <NavBar />
+    
  
 
 
 <div class="relative flex min-h-screen flex-col justify-center overflow-hidden bg-white py-6 sm:py-12">
   <div class="mx-auto max-w-4xl rounded-3xl bg-[#092540] p-20 text-center">
-    <h2 class="text-5xl font-bold leading-tight text-white">Grow rapidly with our unlimited Web Design & development</h2>
-    <p class="mt-5 text-xl leading-8 text-white">Get unlimited design & development requests for a flat monthly rate. Fast turnaround. No contracts or surprises. Cancel anytime.</p>
+    <h2 class="text-5xl font-bold leading-tight text-white">This is where your exploring of adventure all over the universe come to meet</h2>
+    <p class="mt-5 text-xl leading-8 text-white">Get our roadtrip offers with additional bonuses at all time</p>
     <div class="mt-6 flex items-center justify-center gap-4">
       <button class="flex items-center justify-center gap-2 rounded-full bg-violet-500 px-5 py-3 text-lg font-medium text-white">
         <span> Book a demo</span>
